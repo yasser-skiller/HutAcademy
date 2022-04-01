@@ -1,0 +1,11 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="invisible_box" data-name="invisible box">
+    <rect id="Rectangle_1674" data-name="Rectangle 1674" width="32" height="32" fill="none"/>
+    <rect id="Rectangle_1675" data-name="Rectangle 1675" width="32" height="32" fill="none"/>
+  </g>
+  <g id="icons_Q2" data-name="icons Q2" transform="translate(2.667 2.667)">
+    <g id="post-tumblr">
+      <path id="Path_48034" data-name="Path 48034" d="M28,4H6.667A2.667,2.667,0,0,0,4,6.667V28a2.667,2.667,0,0,0,2.667,2.667H28A2.667,2.667,0,0,0,30.667,28V6.667A2.667,2.667,0,0,0,28,4ZM22.667,16h-4v5.2c0,.933.133,1.467,1.467,1.467h2.533v4s-1.333.133-2.8.133c-3.467,0-5.2-2.133-5.2-4.533V16H12V12.267C15.2,12,15.467,9.6,15.733,8h2.933v4h4Z" transform="translate(-4 -4)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

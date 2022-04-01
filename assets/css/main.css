@@ -1,0 +1,158 @@
+
+@font-face {
+  font-family: "URW-DIN-Arabic";
+  src: local("URW-DIN-Arabic"),
+  url(~assets/fonts/alfont_com_AlFont_com_URW-DIN-Arabic.ttf) format("truetype");
+}
+
+:root {
+  --BlackColor:#000;
+  --GreenColorTabel : #48AB70;
+  --GreenColor: #48AB70;
+  --DarkGreenColor :#458f63;
+  --OrangeColor:#FF6B35;
+  --DarkOrangeColor:#df5c2d;
+  --BlueColor: #37B9CE;
+  --DarkBlueColor:#298d9d;
+  --TextBlueColor:#75A2D9;
+  --GrayColor: #353B44;
+  --WhiteColor: #fff;
+  --DarkWhiteColor:#F2F7F9;
+  --DarkWhiteSceColor:#000;
+  --DarkGrayColor:#272c33;
+  --fill:#F6FEFF;
+  --GrayNave:#868891;
+  --GrayNaveActive:#363848;
+  --SpacialColor:#37B9CE;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'URW-DIN-Arabic' !important;
+  direction: rtl;
+  text-align: right ;
+  overflow-x: hidden !important;
+  transition: .75s ease-in-out;
+}
+#__nuxt{
+  overflow-x: hidden !important;
+}
+
+a{
+  text-decoration-line: none !important;
+}
+/* bootstrap modified */
+.btn-outline-primary {
+  color: var(--BlueColor) !important;
+  border-color: var(--BlueColor) !important;
+}
+.btn-outline-primary:hover {
+  color: var(--WhiteColor) !important;
+  background-color: var(--DarkBlueColor) !important;
+}
+.btn-primary{
+  border-color: var(--BlueColor) !important;
+  background-color: var(--BlueColor) !important;
+}
+.btn-primary:hover{
+  border-color: var(--BlueColor) !important;
+  background-color: var(--DarkBlueColor) !important;
+}
+.btn-success {
+  color: #fff;
+  background-color: var(--GreenColor) !important;
+  border-color: var(--GreenColor) !important;
+}
+.btn-success:hover {
+  background-color: var(--DarkGreenColor) !important;
+}
+.btn-danger {
+  color: #fff;
+  background-color: var(--OrangeColor) !important;
+  border-color: var(--OrangeColor) !important;
+}
+.btn-danger:hover{
+  background-color: var(--DarkOrangeColor) !important;
+}
+
+.btn-secondary {
+  background-image: linear-gradient(90deg,#37B9CE,#4677AD);
+  border-color: none !important;
+  transition:.5s ease-in-out;
+}
+.btn-secondary:hover {
+  background-image: linear-gradient(90deg,#30a4b6,#3b6496);
+  transition:.5s ease-in-out;
+}
+.rounded{
+  border-radius: 10px !important;
+}
+
+/* css Class */
+.GreenColor{
+  color: var(--GreenColor);
+}
+.GreenColorTabel{
+  color: var(--GreenColorTabel) ;
+}
+.BlueColor{
+  color: var(--TextBlueColor);
+}
+.WhiteColor{
+  color: var(--WhiteColor) !important;
+}
+.bg-DarkWhiteColor{
+  background-color: var(--DarkWhiteColor);
+}
+.DarkWhiteColor{
+  color: var(--DarkWhiteSceColor);
+}
+.bg-GreenColor{
+  background-color: #48AB70 !important;
+}
+.bg-WhiteColor{
+  background-color: var(--WhiteColor);
+}
+
+.w-70{
+  width: 65%;
+}
+
+/* Mode */
+.containerMode{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50px;
+  right: 50px;
+  height: 20px;
+  width: 20px;
+  transition: 1s ease-in-out;
+
+}
+
+.darkMode{
+  position: relative;
+  transform: scale(0);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vw;
+  border-radius: 50%;
+  background-color: var(--DarkGrayColor);
+  transition: .75s ease-in-out;
+  display: flex;
+  flex: 0 0 auto;
+  z-index: -2;
+}
+
+.darkMode.active{
+  position: relative;
+  transform: scale(1);
+  transition: .75s ease-in-out;
+}
